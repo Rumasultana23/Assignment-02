@@ -82,7 +82,7 @@ nav {
     margin: auto 0;
     max-width: 1300px;
     min-height: 30px;
-    
+
     display: flex;
     /* text-align: center; */
     /* justify-content: center; */
@@ -152,9 +152,96 @@ nav {
     background: #FF42A5;
     color: white;
 }
-.btn-1{
+
+.btn-1 {
     background-color: #4EC5F7;
 }
+
+/* banner style end */
+
+/* online game style start */
+
+.game-container {
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    max-width: 1300px;
+    min-height: 50px;
+
+}
+
+.game-title-container {
+    /* border: 1px solid green; */
+    margin-top: 50px;
+
+}
+
+.game-title-container h1 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.game-title-container p {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.game-title-container .title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+
+}
+
+.card-container {
+    /* border: 1px solid blue; */
+    max-width: 1300px;
+    min-height: 50px;
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding: 0 50px;
+
+}
+
+.single-game-card img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.single-game-card p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.single-game-card {
+    /* border: 1px solid aqua; */
+    /* width: 30%; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* online game style end */
 
 
 
