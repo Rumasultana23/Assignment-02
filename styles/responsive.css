@@ -14,7 +14,22 @@
         margin-top: 20px;
     }
     /* nav end */
-    
-    
+
+    /* banner start */
+    .banner-container{
+        flex-direction: column;
+      
+    }
+    .banner-text {
+        width: 100%;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-btn-container{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    /* banner end */
     
 }
