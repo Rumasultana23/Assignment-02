@@ -319,7 +319,7 @@ nav {
     height: 80px;
     border-radius: 50px;
     background: #FFF;
-    /* box-shadow: 2px 2px 3px gray; */
+
 }
 
 .game-btn img {
@@ -327,25 +327,89 @@ nav {
     height: 60px;
     margin-right: 20px;
 }
+
 .game-btn:hover,
-:focus{
+:focus {
     color: #FF42A5;
     border: 2px solid #FF42A5;
     cursor: pointer;
-   
+    box-shadow: 2px 2px 2px gray;
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* All game button section end */
+
+/* footer section start */
+.footer-section {
+    max-width: 1300px;
+    margin: 0 auto;
+    min-height: 50px;
+    background: #0B0223;
+    border: 1px solid black;
+    
+}
+
+.footer-container {
+    /* background: #0B0223; */
+
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-item ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.footer-icons img{
+    height: 30px;
+    width: 30px;
+}
+
+.footer-settings>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    list-style: none;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* footer section end*/

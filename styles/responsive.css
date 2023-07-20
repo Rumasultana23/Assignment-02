@@ -72,4 +72,16 @@
     }
     /* play instantly section end */
 
+    /* footer section start */
+    .footer-section{
+        flex-direction: row;
+    }
+    .footer-item ul {
+        flex-direction:column;
+        
+    }
+   
+
+    /* footer section end */
+
 }
